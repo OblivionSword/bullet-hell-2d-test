@@ -1,7 +1,103 @@
 fileFormatVersion: 2
 guid: a1aef189f2629ff4a9eeddb76febead9
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -5565711619026996453
+    second: dot_seiran_0
+  - first:
+      213: -2134254632233783214
+    second: dot_seiran_1
+  - first:
+      213: 3390963829554763453
+    second: dot_seiran_2
+  - first:
+      213: -2213350401599859738
+    second: dot_seiran_3
+  - first:
+      213: -2183979838752205506
+    second: dot_seiran_4
+  - first:
+      213: 3842255832339695696
+    second: dot_seiran_5
+  - first:
+      213: -3944097603306853301
+    second: dot_seiran_6
+  - first:
+      213: -4052363593053130240
+    second: dot_seiran_7
+  - first:
+      213: 1915398934565325659
+    second: dot_seiran_8
+  - first:
+      213: 8770635078426603352
+    second: dot_seiran_9
+  - first:
+      213: -1708387951592332251
+    second: dot_seiran_10
+  - first:
+      213: 4631533391437394945
+    second: dot_seiran_11
+  - first:
+      213: 2214690926671028678
+    second: dot_seiran_12
+  - first:
+      213: -6945707660865442998
+    second: dot_seiran_13
+  - first:
+      213: -3749988463937330635
+    second: dot_seiran_14
+  - first:
+      213: -7028767551197416840
+    second: dot_seiran_15
+  - first:
+      213: 1632006313362120110
+    second: dot_seiran_16
+  - first:
+      213: -1318154479670553213
+    second: dot_seiran_17
+  - first:
+      213: 8433502809757261266
+    second: dot_seiran_18
+  - first:
+      213: -2488576687609405366
+    second: dot_seiran_19
+  - first:
+      213: 998915950217723170
+    second: dot_seiran_20
+  - first:
+      213: 4534242021197986059
+    second: dot_seiran_21
+  - first:
+      213: -5867766463423849708
+    second: dot_seiran_22
+  - first:
+      213: 134794371991145804
+    second: dot_seiran_23
+  - first:
+      213: -4022624581475450845
+    second: dot_seiran_24
+  - first:
+      213: 5812933293775891931
+    second: dot_seiran_25
+  - first:
+      213: -369758641520721693
+    second: dot_seiran_26
+  - first:
+      213: -728727245912723553
+    second: dot_seiran_27
+  - first:
+      213: 8649143629070837790
+    second: dot_seiran_28
+  - first:
+      213: 2156759077197361581
+    second: dot_seiran_29
+  - first:
+      213: -5788213792158426078
+    second: dot_seiran_30
+  - first:
+      213: -993874409236083744
+    second: dot_seiran_31
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -40,7 +136,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -85,7 +181,322 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: dot_seiran_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b13b1a955ce92c2b0800000000000000
+      internalID: -5565711619026996453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_seiran_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 250397148ba9162e0800000000000000
+      internalID: -2134254632233783214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_seiran_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db65fca03af1f0f20800000000000000
+      internalID: 3390963829554763453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_seiran_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e31c2d59899841e0800000000000000
+      internalID: -2213350401599859738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_seiran_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e355f8a68e1f0b1e0800000000000000
+      internalID: -2183979838752205506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_seiran_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b8de9ce2dd49a10800000000000000
+      internalID: 1915398934565325659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_seiran_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85fa230922e87b970800000000000000
+      internalID: 8770635078426603352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_seiran_10
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52428ce95369a48e0800000000000000
+      internalID: -1708387951592332251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_seiran_11
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1047cf1a413864040800000000000000
+      internalID: 4631533391437394945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_seiran_12
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c1e183f9a92cbe10800000000000000
+      internalID: 2214690926671028678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_seiran_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eadd423681d06a610800000000000000
+      internalID: 1632006313362120110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_seiran_18
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd17d37f12d90570800000000000000
+      internalID: 8433502809757261266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_seiran_19
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4029ba00bcc67dd0800000000000000
+      internalID: -2488576687609405366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_seiran_20
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22df235a3ccdcdd00800000000000000
+      internalID: 998915950217723170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_seiran_26
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e0c68f797a5edaf0800000000000000
+      internalID: -369758641520721693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
