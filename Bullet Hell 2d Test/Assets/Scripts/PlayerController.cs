@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    public AudioSource deathSound;
     public float moveSpeed;
     public int life;
     public Rigidbody2D rb;
@@ -17,6 +18,7 @@ public class PlayerController : MonoBehaviour
     // get the main camera and player's size
     void Start()
     {
+        deathSound = GetComponent<AudioSource>();
         screenBounds = MainCamera.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, 
                                                             transform.position.z));
         objectWidth = transform.GetComponent<SpriteRenderer>().bounds.extents.x; //extents = size of width / 2
@@ -63,8 +65,7 @@ public class PlayerController : MonoBehaviour
 
     private void OnParticleCollision(GameObject other)
     {
-        Debug.Log("hit");
-        //gameObject.SetActive(false);
+        deathSound.Play();
         life = life - 1;
         if (life <= 0)
         {
