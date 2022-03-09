@@ -66,6 +66,13 @@ public class BulletGenerator : MonoBehaviour
             text.mode = ParticleSystemAnimationMode.Sprites;
             text.AddSprite(texture);
             text.enabled = true;
+
+            var collision = system.collision;
+            collision.enabled = true;
+            collision.type = ParticleSystemCollisionType.World;
+            collision.mode = ParticleSystemCollisionMode.Collision2D;
+            collision.lifetimeLoss = 1;
+            collision.sendCollisionMessages = true;
         }
 
         // Every 2 secs we will emit.
