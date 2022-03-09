@@ -6,6 +6,9 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public AudioSource deathSound;
+    public GameObject shot;
+    public Transform playerBulletSpawn;
+    public float fireRate;
     public float moveSpeed;
     public int life;
     public Rigidbody2D rb;
@@ -14,6 +17,7 @@ public class PlayerController : MonoBehaviour
     private Vector2 screenBounds;
     private float objectWidth;
     private float objectHeight;
+    private float nextFire;
 
     // get the main camera and player's size
     void Start()
@@ -29,6 +33,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         ProcessInput();
+        Fire();
     }
 
     private void FixedUpdate()
@@ -61,6 +66,14 @@ public class PlayerController : MonoBehaviour
     private void Move()
     {
         rb.velocity = new Vector2(moveDirection.x * moveSpeed, moveDirection.y * moveSpeed);
+    }
+
+    private void Fire()
+    {
+        if ((Input.GetButton("Fire1") && Time.time > nextFire)) {
+            nextFire = Time.time + fireRate;
+            Instantiate(shot, playerBulletSpawn.position, playerBulletSpawn.rotation);
+        }
     }
 
     private void OnParticleCollision(GameObject other)
