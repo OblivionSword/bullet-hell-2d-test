@@ -5,14 +5,14 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public AudioSource deathSound;
-    public GameObject shot;
-    public Transform playerBulletSpawn;
-    public float fireRate;
-    public float moveSpeed;
+    [SerializeField] private AudioSource deathSound;
+    [SerializeField] private GameObject shot;
+    [SerializeField] private Transform playerBulletSpawn;
+    [SerializeField] private float fireRate;
+    [SerializeField] private float moveSpeed;
+    [SerializeField] private Rigidbody2D rb;
+    [SerializeField] private Camera MainCamera;
     public int life;
-    public Rigidbody2D rb;
-    public Camera MainCamera; 
     private Vector2 moveDirection;
     private Vector2 screenBounds;
     private float objectWidth;
