@@ -23,4 +23,9 @@ public class DestroyEnemy : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        Destroy(gameObject);
+    }
 }

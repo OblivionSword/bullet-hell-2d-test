@@ -336,9 +336,9 @@ MonoBehaviour:
   playerBulletSpawn: {fileID: 1599397501}
   fireRate: 0.1
   moveSpeed: 5
-  life: 5
   rb: {fileID: 309995469}
   MainCamera: {fileID: 519420031}
+  life: 5
 --- !u!50 &309995469
 Rigidbody2D:
   serializedVersion: 4
@@ -811,7 +811,6 @@ GameObject:
   - component: {fileID: 639784240}
   - component: {fileID: 639784239}
   - component: {fileID: 639784238}
-  - component: {fileID: 639784241}
   m_Layer: 0
   m_Name: Shot Boundary
   m_TagString: Untagged
@@ -909,18 +908,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &639784241
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 639784237}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e3b5e8ef4cf0715409495875458749a6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &760433383
 GameObject:
   m_ObjectHideFlags: 0
