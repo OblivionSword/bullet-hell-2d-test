@@ -20,7 +20,7 @@ public class PlayerController : MonoBehaviour
     private float nextFire;
 
     // get the main camera and player's size
-    void Start()
+    void Awake()
     {
         deathSound = GetComponent<AudioSource>();
         screenBounds = MainCamera.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, 
