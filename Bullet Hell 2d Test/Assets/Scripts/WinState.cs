@@ -1,0 +1,28 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class WinState : IState
+{
+    private bool playerWin;
+
+    public WinState(bool playerWin)
+    {
+        this.playerWin = playerWin;
+    }
+    
+    public void Enter()
+    {
+        playerWin = true;
+    }
+
+    public void Execute()
+    {
+        
+    }
+
+    public void Exit()
+    {
+        
+    }
+}

@@ -17,8 +17,6 @@ public class PauseController : MonoBehaviour
             stateMachine = new StateMachine();
             pauseState = new PauseState(isGamePaused);
             unpauseState = new UnpauseState(isGamePaused);
-    
-            isGamePaused = false;
         }
     
     private void Start()

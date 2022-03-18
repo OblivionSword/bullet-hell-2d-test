@@ -6,9 +6,12 @@ using UnityEngine.UI;
 
 public class EnemyHealth : MonoBehaviour
 {
+
     [SerializeField] private int startingHealth;
     public int currentHealth;
-    public Slider healthSlider;
+    [SerializeField] private Slider healthSlider;
+
+    private bool playerWin;
 
     private void Awake()
     {
@@ -21,8 +24,12 @@ public class EnemyHealth : MonoBehaviour
         healthSlider.value = currentHealth;
         if (currentHealth <= 0)
         {
-            Destroy(gameObject);
+            DestroyEnemy();
         }
     }
-    
+
+    private void DestroyEnemy()
+    {
+        gameObject.SetActive(false);
+    }
 }
