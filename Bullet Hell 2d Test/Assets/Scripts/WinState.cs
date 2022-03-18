@@ -14,6 +14,7 @@ public class WinState : IState
     public void Enter()
     {
         playerWin = true;
+        Time.timeScale = 0f;
     }
 
     public void Execute()

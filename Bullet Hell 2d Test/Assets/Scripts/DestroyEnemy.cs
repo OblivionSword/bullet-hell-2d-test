@@ -22,6 +22,7 @@ public class DestroyEnemy : MonoBehaviour
             enemyHealth.TakeDamage(attackDamage);
             Destroy(gameObject);
         }
+        
     }
 
     private void OnTriggerExit2D(Collider2D other)

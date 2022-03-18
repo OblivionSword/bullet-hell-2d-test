@@ -1,4 +1,6 @@
 ﻿
+using UnityEngine;
+
 public class LoseState : IState
 {
     private bool playerLose;
@@ -11,6 +13,7 @@ public class LoseState : IState
     public void Enter()
     {
         playerLose = true;
+        
     }
 
     public void Execute()
