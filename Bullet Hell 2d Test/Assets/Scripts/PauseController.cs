@@ -10,6 +10,22 @@ public class PauseController : MonoBehaviour
     private UnpauseState unpauseState;
     private bool isGamePaused;
 
+    [SerializeField] private GameObject pauseMenu;
+    
+    private void Awake()
+        {
+            stateMachine = new StateMachine();
+            pauseState = new PauseState(isGamePaused);
+            unpauseState = new UnpauseState(isGamePaused);
+    
+            isGamePaused = false;
+        }
+    
+    private void Start()
+        {
+            UnpauseGame();
+        }
+        
     private void Update()
     {
         if (Input.GetKeyUp(KeyCode.Escape))
@@ -28,21 +44,16 @@ public class PauseController : MonoBehaviour
     public void PauseGame()
     {
         stateMachine.ChangeState(pauseState);
+        pauseMenu.SetActive(true);
         isGamePaused = true;
     }
 
     public void UnpauseGame()
     {
         stateMachine.ChangeState(unpauseState);
+        pauseMenu.SetActive(false);
         isGamePaused = false;
     }
 
-    private void Awake()
-    {
-        stateMachine = new StateMachine();
-        pauseState = new PauseState(isGamePaused);
-        unpauseState = new UnpauseState(isGamePaused);
-    }
-    
     
 }

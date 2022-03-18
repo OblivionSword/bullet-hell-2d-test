@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class LevelSelect : MonoBehaviour
+public class SceneLoader : MonoBehaviour
 {
-    public void SelectLevel(string level)
+    public void SelectScene(string level)
     {
         SceneManager.LoadScene(level);
     }

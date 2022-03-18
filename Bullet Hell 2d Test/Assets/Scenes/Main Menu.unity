@@ -1822,7 +1822,7 @@ GameObject:
   - component: {fileID: 975469511}
   - component: {fileID: 975469510}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Black Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1896,7 +1896,7 @@ GameObject:
   - component: {fileID: 1111264614}
   - component: {fileID: 1111264613}
   m_Layer: 5
-  m_Name: Image (1)
+  m_Name: Black Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2943,7 +2943,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 180637031}
-        m_MethodName: SelectLevel
+        m_MethodName: SelectScene
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
