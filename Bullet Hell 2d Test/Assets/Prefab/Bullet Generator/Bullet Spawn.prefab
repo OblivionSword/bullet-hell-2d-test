@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1627407859970595679}
   - component: {fileID: 1627407859970595672}
   m_Layer: 0
-  m_Name: Bullet Spawn
+  m_Name: Bullet Spawn 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

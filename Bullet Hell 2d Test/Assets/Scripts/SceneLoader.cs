@@ -9,9 +9,4 @@ public class SceneLoader : MonoBehaviour
     {
         SceneManager.LoadScene(level);
     }
-
-    public void SelectThisScene()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-    }
 }
