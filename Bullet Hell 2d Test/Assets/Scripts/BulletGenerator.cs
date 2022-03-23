@@ -5,19 +5,19 @@ using UnityEngine;
 
 public class BulletGenerator : MonoBehaviour
 {
-    public int numberOfColumns;
-    public float speed;
-    public Sprite texture;
-    public Color color;
-    public float lifetime;
-    public float firerate;
-    public float size;
+    [SerializeField] private int numberOfColumns;
+    [SerializeField] private float speed;
+    [SerializeField] private Sprite texture;
+    [SerializeField] private Color color;
+    [SerializeField] private float lifetime;
+    [SerializeField] private float firerate;
+    [SerializeField] private float size;
+    [SerializeField] private Material material;
+    [SerializeField] private float spinSpeed;
     private float angle;
-    public Material material;
-    public float spinSpeed;
     private float time;
 
-    public ParticleSystem system;
+    private ParticleSystem system;
 
     private void Awake()
     {
@@ -47,6 +47,7 @@ public class BulletGenerator : MonoBehaviour
             go.transform.position = this.transform.position;
             system = go.AddComponent<ParticleSystem>();
             go.GetComponent<ParticleSystemRenderer>().material = particleMaterial;
+            
             var mainModule = system.main;
             mainModule.startColor = Color.green;
             mainModule.startSize = 0.5f;
@@ -73,6 +74,9 @@ public class BulletGenerator : MonoBehaviour
             collision.mode = ParticleSystemCollisionMode.Collision2D;
             collision.lifetimeLoss = 1;
             collision.sendCollisionMessages = true;
+            
+            go.GetComponent<ParticleSystemRenderer>().renderMode = ParticleSystemRenderMode.Stretch;
+            go.GetComponent<ParticleSystemRenderer>().lengthScale = 1;
         }
 
         // Every 2 secs we will emit.
