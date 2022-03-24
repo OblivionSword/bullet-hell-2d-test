@@ -7,7 +7,7 @@ Inspired by the Touhou project series by ZUN. This small prototype project was c
 # Control
 | Input                 | Actions        |
 | -------------         |:-------------: |
-| Arrow Keys / AWSD      | Move Character |
+| Arrow Keys      | Move Character |
 | Z / Y                   | Shoot          |
 | ESC                   | Pause          |
 
