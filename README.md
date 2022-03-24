@@ -16,4 +16,4 @@ Seiran sprite by [Kirbio](https://twitter.com/kirbio123?ref_src=twsrc%5Egoogle%7
 
 Marisa sprite, Bullet sprites, and Musics from [Concealed the Conclusion](https://github.com/danmaq/touhou-ctc-danmakufu) by [danmaq](https://twitter.com/danmaq)
 
-Touhou Project is owned by ZUN and Team Shanghai Alice
+Touhou Project is owned by [ZUN](https://mobile.twitter.com/korindo?lang=en) and Team Shanghai Alice
