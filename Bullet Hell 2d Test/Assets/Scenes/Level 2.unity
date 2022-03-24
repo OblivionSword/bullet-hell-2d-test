@@ -611,7 +611,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &957769168
 Transform:
   m_ObjectHideFlags: 0
@@ -1065,7 +1065,7 @@ PrefabInstance:
         type: 3}
       propertyPath: healthSlider
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2079266587}
     - target: {fileID: 7899829769510025385, guid: df58162d2f44ffe4c98c24ffd3fc36eb,
         type: 3}
       propertyPath: startingHealth
@@ -1074,7 +1074,7 @@ PrefabInstance:
     - target: {fileID: 8111543859543896136, guid: df58162d2f44ffe4c98c24ffd3fc36eb,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df58162d2f44ffe4c98c24ffd3fc36eb, type: 3}
@@ -1270,7 +1270,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1321437814
 Transform:
   m_ObjectHideFlags: 0
@@ -1416,6 +1416,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 63f9ff5a24829bd4db94b7ee107e0a33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2079266587 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4265161882846763173, guid: 290b4978521b6324097228af326f0252,
+    type: 3}
+  m_PrefabInstance: {fileID: 750147929}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &2126014270
