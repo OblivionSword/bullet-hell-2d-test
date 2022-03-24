@@ -14,4 +14,4 @@ Inspired by the Touhou project series by ZUN. This small prototype project was c
 # Credits
 Seiran sprite by [Kirbio](https://twitter.com/kirbio123?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor)
 
-Marisa sprite, Bullet sprites, Music from [Concealed the Conclusion](https://github.com/danmaq/touhou-ctc-danmakufu) by [danmaq](https://twitter.com/danmaq)
+Marisa sprite, Bullet sprites, and Musics from [Concealed the Conclusion](https://github.com/danmaq/touhou-ctc-danmakufu) by [danmaq](https://twitter.com/danmaq)
