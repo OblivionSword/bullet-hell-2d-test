@@ -11,6 +11,7 @@ public class PauseController : MonoBehaviour
     private bool isGamePaused;
 
     [SerializeField] private GameObject pauseMenu;
+    [SerializeField] private AudioSource bgm;
     
     private void Awake()
         {
@@ -42,6 +43,7 @@ public class PauseController : MonoBehaviour
     public void PauseGame()
     {
         stateMachine.ChangeState(pauseState);
+        bgm.Pause();
         pauseMenu.SetActive(true);
         isGamePaused = true;
     }
@@ -49,6 +51,7 @@ public class PauseController : MonoBehaviour
     public void UnpauseGame()
     {
         stateMachine.ChangeState(unpauseState);
+        bgm.UnPause();
         pauseMenu.SetActive(false);
         isGamePaused = false;
     }
