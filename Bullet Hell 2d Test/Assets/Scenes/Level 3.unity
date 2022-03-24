@@ -391,7 +391,7 @@ PrefabInstance:
     - target: {fileID: 8111543859543896136, guid: df58162d2f44ffe4c98c24ffd3fc36eb,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df58162d2f44ffe4c98c24ffd3fc36eb, type: 3}
@@ -652,6 +652,7 @@ GameObject:
   m_Component:
   - component: {fileID: 634283743}
   - component: {fileID: 634283744}
+  - component: {fileID: 634283745}
   m_Layer: 0
   m_Name: Bullet Spawn (1)
   m_TagString: Untagged
@@ -726,6 +727,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &634283745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 634283742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c921a5ae7e29f754aac162725d5bc15c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 3
+  startWaitTime: 1
+  waypoints:
+  - {fileID: 887689161}
+  - {fileID: 1736311949}
 --- !u!1 &750477296
 GameObject:
   m_ObjectHideFlags: 0
@@ -779,6 +797,36 @@ MonoBehaviour:
   size: 0.1
   material: {fileID: 10308, guid: 0000000000000000f000000000000000, type: 0}
   spinSpeed: 50
+--- !u!1 &887689160
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 887689161}
+  m_Layer: 0
+  m_Name: Waypoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &887689161
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 887689160}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2, y: 0.004, z: 3.4447188}
+  m_LocalScale: {x: 1.7795103, y: 1.7795103, z: 1.7795103}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1007935244
 GameObject:
   m_ObjectHideFlags: 0
@@ -1273,6 +1321,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1570574472}
   - component: {fileID: 1570574471}
+  - component: {fileID: 1570574473}
   m_Layer: 0
   m_Name: Bullet Spawn (2)
   m_TagString: Untagged
@@ -1346,6 +1395,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1570574473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1570574470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c921a5ae7e29f754aac162725d5bc15c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 3
+  startWaitTime: 1
+  waypoints:
+  - {fileID: 1736311949}
+  - {fileID: 887689161}
 --- !u!1 &1615087153
 GameObject:
   m_ObjectHideFlags: 0
@@ -1451,7 +1517,37 @@ MonoBehaviour:
   firerate: 1
   size: 0.3
   material: {fileID: 10308, guid: 0000000000000000f000000000000000, type: 0}
-  spinSpeed: -50
+  spinSpeed: 20
+--- !u!1 &1736311948
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1736311949}
+  m_Layer: 0
+  m_Name: Waypoint 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1736311949
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1736311948}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2, y: 0.004, z: 3.4447188}
+  m_LocalScale: {x: 1.7795103, y: 1.7795103, z: 1.7795103}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1938675916
 GameObject:
   m_ObjectHideFlags: 0
