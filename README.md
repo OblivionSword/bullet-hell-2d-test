@@ -1,6 +1,8 @@
 # Bullet Hell Test with Seiran
 A 2d touhou style bullet hell game using unity particle system as bullet patterns
 
+You download it [here](https://github.com/OblivionSword/bullet-hell-2d-test/releases)
+
 # Idea
 Inspired by the Touhou project series by ZUN. This small prototype project was created as a practice in learning how to use Unity and C#.
 
